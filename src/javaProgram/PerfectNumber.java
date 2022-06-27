@@ -11,8 +11,7 @@ public class PerfectNumber {
 		number = sc.nextInt();
 
 		for (i = 1; i < number; i++) {
-			if (number % i == 0)
-				;
+			if (number % i == 0);
 			sum += i;
 		}
 		if (sum == number) {
